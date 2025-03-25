@@ -36,7 +36,8 @@ Write a SQL query to produce a list of the names of the facilities that do. */
 
 SELECT *
 FROM Facilities
-ORDER BY  `Facilities`.`membercost` DESC
+WHERE membercost > 0
+ORDER BY membercost DESC
 
 
 /* Q2: How many facilities do not charge a fee to members? */
