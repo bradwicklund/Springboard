@@ -1,0 +1,4 @@
+Algorithm,Parameters,n_clusters,n_noise,Silhouette Score,Calinski-Harabasz Score
+MiniBatchKMeans,"n_clusters=2, batch_size=2000",2,0,0.186,
+AgglomerativeClustering,"n_clusters=2, linkage=ward",2,0,0.192,
+DBSCAN,"eps=1.2820, min_samples=10",96,100,0.406,4234.882
