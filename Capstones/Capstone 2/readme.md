@@ -11,7 +11,7 @@ The problem we set out to solve was if our online shopping data could be separat
 ## 2. Data Cleaning and Wrangling
 During data cleaning and wrangling no missing values were found and it was determined that most of our features were categorical, rather than numercial, and would need to be encoded prior to creating a clustering model.  It was also determined that 80% of sales are from customers in Poland, where the website is based.  Another 10% are from the Czech Republic and the final 10% are from all remaining countries and regions.  
 
-https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/18.6%20-%20Capstone%202%20-%20Data%20Wrangling.ipynb
+https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/notebooks/18.6%20-%20Capstone%202%20-%20Data%20Wrangling.ipynb
 
 ## 3. EDA
 Based on the exploration of data, some relationships emerged. It appears that when an item is displayed on the first page is it more likely to be purchased. It also appears that when an item appears in the top middle and top left of a page it is more likely to be purchased.
@@ -20,14 +20,19 @@ Another observed trend is that items that are olive, red, blue, pink, and black 
 
 We also observed that there are 1,923 items with the outlier price of $82.00.
 
-https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/22.5%20-%20Capstone%202%20-%20EDA.ipynb
+https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/notebooks/22.5%20-%20Capstone%202%20-%20EDA.ipynb
 
 ## 4. Preprocessing and Data Training Development
 Given that most of our features are categorical variables, it was critical that during our preprocessing step we created dummy variables.  During this phase of the project we also standardized the data.
 
-https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/27.3%20-%20Capstone%202%20-%20Preprocessing%20and%20Training%20Data%20Development-Copy1.ipynb
+https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/notebooks/27.3%20-%20Capstone%202%20-%20Preprocessing%20and%20Training%20Data%20Development.ipynb
 
 ## 5. Modeling
 We tested our data with three unsupervised clustering models: KMeans, Hierarchichal Clustering, and DBSCAN
 
-https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/28.3%20-%20Capstone%202%20-%20Modeling.ipynb
+https://github.com/bradwicklund/Springboard/blob/main/Capstones/Capstone%202/notebooks/28.3%20-%20Capstone%202%20-%20Modeling.ipynb
+
+## 6. Reports
+Final reports of findings including PDF and PPT.
+
+https://github.com/bradwicklund/Springboard/tree/main/Capstones/Capstone%202/reports
