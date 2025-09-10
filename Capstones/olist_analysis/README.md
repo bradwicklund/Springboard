@@ -27,6 +27,7 @@ Two modeling tracks were pursued:
 - **Supervised Regression:** Linear Regression, Random Forest Regressor, and Gradient Boosting Regressor were tested to predict review scores. Gradient Boosting achieved the best balance of R² and RMSE, while feature importance confirmed that delivery delay was the strongest predictor of dissatisfaction.  
 
 [Notebook: Modeling](https://github.com/bradwicklund/Springboard/blob/main/Capstones/olist_analysis/notebooks/03.preprocessing_modeling.ipynb)  
+[Model Metrics](https://github.com/bradwicklund/Springboard/blob/main/Capstones/olist_analysis/models/model_metrics.rtf)
 
 ## 6. Reports  
 Final reports include the PDF report and presentation slides summarizing the analysis, models, and recommendations.  
